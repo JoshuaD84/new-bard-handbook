@@ -9,13 +9,10 @@
 	$input = new DOMDocument();
 	$input -> loadHTMLFile ( $handbookFile );
 
-
 	$menu = $input -> createElement ( "ul" );
 	$menu -> setAttribute ( "id", "anchor-menu" );
 
-
 	$content = $input -> getElementByID ( "content" );
-
 
 	$lastMenuItem = null;
 	$subMenu = null;
@@ -24,10 +21,8 @@
 			$li = $input -> createElement ( "li" );
 			$anchor = $input -> createElement ( "a", $child-> nodeValue );
 			$anchor -> setAttribute ( 'href', "#" . $child->getAttribute ( 'id' ) );
-
 			$li -> appendChild ( $anchor );
 			$menu -> appendChild ( $li ); 
-
 			$lastMenuItem = $li;
 			$subMenu = null;
 		}
@@ -47,6 +42,12 @@
 			$subMenu -> appendChild ( $li ); 
 		}
 	}
+   $li = $input -> createElement ( "li" );
+   $anchor = $input -> createElement ( "a", "Comments" );
+   $anchor -> setAttribute ( 'href', "#comments-header" );
+   $li -> appendChild ( $anchor );
+   $menu -> appendChild ( $li ); 
+
 	$menuHeader = $input -> createElement ( "h2" );
 	$menuHeader -> setAttribute ( "id", "menu-header" );
 	$menuHeader -> nodeValue = 'Navigation';
