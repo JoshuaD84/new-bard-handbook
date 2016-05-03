@@ -17,6 +17,10 @@
     padding-left: 15px;
 }
 
+#bhb-content ul > li + ul {
+   margin-left: 500px;
+}
+
 #bhb-content h1, #bhb-content h2 {
 	color: #1c3d54;
 }
@@ -87,7 +91,6 @@
     color: #035fa0;
 }
 
-
 #nav-anchor-menu {
    float: left;
    max-width: 230px;
@@ -128,14 +131,17 @@
     list-style-type: none;
     padding-left: 0px;
 }
+
 #nav-anchor-menu ul > li > ul > li > a {
     padding-left: 25px;
 }
+
 #nav-anchor-menu li {
     padding: 0px;
     margin: 0px;
     margin-left: 0px;
 }
+
 #nav-anchor-menu a {
     display: block;
     color: #000000;
