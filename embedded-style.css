@@ -47,8 +47,18 @@
 	margin-left: 30px;
 }
 
+#bhb-content #menu-header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+
 #bhb-content h3,h4, #menu-header {
     color: #ec583a;
+}
+
+#bhb-content p {
+	line-height: 1.4em;
 }
 
 #bhb-content h1 {
@@ -77,6 +87,8 @@
     font-size: 18px;
     font-weight: bold;
     text-decoration: underline;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 #bhb-content li {
@@ -99,6 +111,7 @@
    background-color: #c7d0d5;
    margin-top: 55px;
    padding-top: 0px;
+   padding-bottom: 10px;
 	margin-right: 40px;
    border: 2px solid #222222;
 	margin-bottom: 15px;
@@ -132,8 +145,8 @@
     padding-left: 0px;
 }
 
-#nav-anchor-menu ul > li > ul > li > a {
-    padding-left: 25px;
+#nav-anchor-menu ul ul a {
+    padding-left: 30px !important;
 }
 
 #nav-anchor-menu li {
@@ -142,11 +155,11 @@
     margin-left: 0px;
 }
 
-#nav-anchor-menu a {
+#bhb-content #nav-anchor-menu a {
     display: block;
     color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     padding: 5px 15px;
 }
 
