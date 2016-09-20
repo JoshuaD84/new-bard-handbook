@@ -53,11 +53,11 @@
 	
 }
 
-#bhb-content h3,h4, h5, #menu-header {
+#bhb-content h3, #bhb-content h4, #bhb-content h5, #menu-header {
     color: #ec583a;
 }
 
-#bhb-content p {
+#bhb-content p, #bhb-content li {
 	line-height: 1.4em;
 }
 
