@@ -212,3 +212,19 @@
 .rank-e > strong:first-of-type:after {
     content: " (*)";
 }
+
+#alter-self-table {
+   border: 2px solid black;
+   width: 99%;
+   border-collapse: collapse;
+}
+
+#alter-self-table th {
+   background-color: #CCCCCC;
+}
+
+#alter-self-table td, #alter-self-table th {
+   border: 1px solid black;
+   padding: 3px 5px;
+   text-align: center;
+}
